@@ -37,7 +37,7 @@ requirements:
     - wrapt
     - gast
     - semantic_version
-    - tensorflow >=1.5.0
+    - tensorflow >=1.8.0
     - tensorflow-probability <0.7
     - contextlib2
 
