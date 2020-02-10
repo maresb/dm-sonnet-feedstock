@@ -1,5 +1,5 @@
 {% set name = "dm-sonnet" %}
-{% set version = "1.35" %}
+{% set version = "1.36" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/deepmind/sonnet/archive/v{{ version }}.tar.gz
-  sha256: 2e9e28b0181d5397338438f57ae0dd02486e3f713992241ac308e728775add41
+  sha256: 35a3e0b93e27d5d675ba9f503bdf9efacd3ae74e864c9c0ec2ed332964f7af19
 
 build:
   number: 0
